@@ -1,0 +1,495 @@
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+body{
+
+    background:#111;
+
+    color:white;
+
+}
+
+
+
+
+header{
+
+    height:70px;
+
+    background:#1b1b1b;
+
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+
+    padding:0px 70px;
+
+
+}
+
+
+
+
+header h2{
+
+    color:#00bcd4;
+
+}
+
+
+
+
+nav a{
+
+
+    color:white;
+
+    text-decoration:none;
+
+
+    margin-left:25px;
+
+
+}
+
+
+
+nav a:hover{
+
+    color:#00bcd4;
+
+}
+
+
+
+
+
+
+.home{
+
+
+    min-height:85vh;
+
+
+    display:flex;
+
+
+    justify-content:space-between;
+
+
+    align-items:center;
+
+
+
+    padding:50px 80px;
+
+
+
+}
+
+
+
+
+.home-text h1{
+
+
+    font-size:45px;
+
+
+
+}
+
+
+
+
+.home-text h3{
+
+
+    color:#00bcd4;
+
+
+    margin:15px 0px;
+
+
+
+}
+
+
+
+
+.home-text p{
+
+
+    width:450px;
+
+
+    line-height:25px;
+
+
+}
+
+
+
+
+
+.btn{
+
+
+    display:inline-block;
+
+
+    margin-top:20px;
+
+
+    padding:12px 25px;
+
+
+    background:#00bcd4;
+
+
+    color:black;
+
+
+    text-decoration:none;
+
+
+    border-radius:5px;
+
+
+
+}
+
+
+
+
+
+
+.profile img{
+
+
+    width:320px;
+
+
+    height:320px;
+
+
+    border-radius:50%;
+
+
+    object-fit:cover;
+
+
+    border:5px solid #00bcd4;
+
+
+}
+
+
+
+
+.profile img:hover{
+
+
+    transform:scale(1.05);
+
+
+    transition:0.4s;
+
+
+}
+
+
+
+
+
+
+
+section{
+
+
+    padding:70px 80px;
+
+
+
+}
+
+
+
+
+
+section h2{
+
+
+    margin-bottom:25px;
+
+
+    color:#00bcd4;
+
+
+
+}
+
+
+
+
+
+
+
+#about p{
+
+
+    line-height:28px;
+
+
+}
+
+
+
+
+
+.skill-box{
+
+
+    display:flex;
+
+
+    flex-wrap:wrap;
+
+
+    gap:20px;
+
+
+}
+
+
+
+
+
+.skill-box div{
+
+
+    background:#1b1b1b;
+
+
+    padding:20px;
+
+
+    width:170px;
+
+
+    text-align:center;
+
+
+    border-radius:8px;
+
+
+
+}
+
+
+
+
+
+
+
+
+.project-box{
+
+
+    display:flex;
+
+
+    gap:20px;
+
+
+
+}
+
+
+
+
+
+
+.card{
+
+
+    background:#1b1b1b;
+
+
+    padding:25px;
+
+
+    border-radius:10px;
+
+
+
+}
+
+
+
+
+
+
+
+#contact a{
+
+
+    color:#00bcd4;
+
+
+}
+
+
+
+
+
+footer{
+
+
+    text-align:center;
+
+
+    background:#1b1b1b;
+
+
+    padding:20px;
+
+
+}
+
+
+
+
+
+
+
+
+@media(max-width:700px){
+
+
+
+header{
+
+
+    flex-direction:column;
+
+
+    height:auto;
+
+
+    padding:20px;
+
+
+}
+
+
+
+nav{
+
+
+    margin-top:15px;
+
+
+}
+
+
+
+
+.home{
+
+
+    flex-direction:column-reverse;
+
+
+    text-align:center;
+
+
+    padding:40px 20px;
+
+
+}
+
+
+
+
+
+.home-text h1{
+
+
+    font-size:32px;
+
+
+}
+
+
+
+
+
+.home-text p{
+
+
+    width:100%;
+
+
+}
+
+
+
+
+
+.profile img{
+
+
+    width:220px;
+
+
+    height:220px;
+
+
+    margin-bottom:30px;
+
+
+}
+
+
+
+
+
+section{
+
+
+    padding:40px 25px;
+
+
+}
+
+
+
+
+.project-box{
+
+
+    flex-direction:column;
+
+
+}
+
+
+
+}
